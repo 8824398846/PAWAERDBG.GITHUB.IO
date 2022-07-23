@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`unused-modules - esbuild should create valid stylesheet 1`] = `
+"body {
+  background-color: #e6e6fa;
+  border: 5px solid #000;
+}
+.dhmnel0 {
+  display: flex;
+}
+._1fuoslw0 {
+  background: green;
+  height: 100px;
+  width: 100px;
+}
+._13dgx5x0 {
+  box-sizing: border-box;
+}
+"
+`;
+
+exports[`unused-modules - mini-css-extract should create valid stylesheet 1`] = `
+"body {
+  background-color: #e6e6fa;
+}
+.uwiqg30 {
+  box-sizing: border-box;
+}
+body {
+  border: 5px solid #000;
+}
+._1qsu10z0 {
+  display: flex;
+}
+._1q2bj4l0 {
+  background: green;
+  height: 100px;
+  width: 100px;
+}
+"
+`;
+
+exports[`unused-modules - vite should create valid stylesheet 1`] = `
+"body {
+  background-color: #e6e6fa;
+  border: 5px solid #000;
+}
+.dhmnel0 {
+  display: flex;
+}
+._11jrfhp0 {
+  background-color: #00f;
+  color: red;
+}
+._1fuoslw0 {
+  background: green;
+  height: 100px;
+  width: 100px;
+}
+._13dgx5x0 {
+  box-sizing: border-box;
+}
+"
+`;

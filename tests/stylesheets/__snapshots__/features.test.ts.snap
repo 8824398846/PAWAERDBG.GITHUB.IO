@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`features - esbuild should create valid stylesheet 1`] = `
+".ro14k60 {
+  height: 50px;
+}
+.ro14k60:after {
+  content: \\"Below 700px\\";
+  display: block;
+}
+.ro14k61 {
+  background-color: #b0e0e6;
+}
+.ro14k61:hover {
+  background-color: #708090;
+}
+.ro14k62 {
+  background-color: #b0e0e6;
+}
+.ro14k62:hover {
+  background-color: #708090;
+}
+.ro14k63 {
+  background-color: #b0e0e6;
+}
+.ro14k63:hover {
+  background-color: #708090;
+}
+.ro14k65 {
+  color: #fff;
+}
+.ro14k66 {
+  background-color: #000;
+}
+body .ro14k67 {
+  font-size: 24px;
+}
+.ro14k68 {
+  color: #fff;
+}
+.ro14k69 {
+  background-color: #000;
+}
+body .ro14k6a {
+  font-size: 24px;
+}
+@media screen and (min-width: 700px) {
+  .ro14k60 {
+    color: plum;
+  }
+  .ro14k60:after {
+    content: \\"Above 700px\\";
+  }
+}
+"
+`;
+
+exports[`features - mini-css-extract should create valid stylesheet 1`] = `
+"._8gph040 {
+  height: 50px;
+}
+._8gph040:after {
+  content: \\"Below 700px\\";
+  display: block;
+}
+._8gph041 {
+  background-color: #b0e0e6;
+}
+._8gph041:hover {
+  background-color: #708090;
+}
+._8gph042 {
+  background-color: #b0e0e6;
+}
+._8gph042:hover {
+  background-color: #708090;
+}
+._8gph043 {
+  background-color: #b0e0e6;
+}
+._8gph043:hover {
+  background-color: #708090;
+}
+._8gph045 {
+  color: #fff;
+}
+._8gph046 {
+  background-color: #000;
+}
+body ._8gph047 {
+  font-size: 24px;
+}
+._8gph048 {
+  color: #fff;
+}
+._8gph049 {
+  background-color: #000;
+}
+body ._8gph04a {
+  font-size: 24px;
+}
+@media screen and (min-width: 700px) {
+  ._8gph040 {
+    color: plum;
+  }
+  ._8gph040:after {
+    content: \\"Above 700px\\";
+  }
+}
+"
+`;
+
+exports[`features - vite should create valid stylesheet 1`] = `
+".ro14k60 {
+  height: 50px;
+}
+.ro14k60:after {
+  content: \\"Below 700px\\";
+  display: block;
+}
+.ro14k61 {
+  background-color: #b0e0e6;
+}
+.ro14k61:hover {
+  background-color: #708090;
+}
+.ro14k62 {
+  background-color: #b0e0e6;
+}
+.ro14k62:hover {
+  background-color: #708090;
+}
+.ro14k63 {
+  background-color: #b0e0e6;
+}
+.ro14k63:hover {
+  background-color: #708090;
+}
+.ro14k65 {
+  color: #fff;
+}
+.ro14k66 {
+  background-color: #000;
+}
+body .ro14k67 {
+  font-size: 24px;
+}
+.ro14k68 {
+  color: #fff;
+}
+.ro14k69 {
+  background-color: #000;
+}
+body .ro14k6a {
+  font-size: 24px;
+}
+@media screen and (min-width: 700px) {
+  .ro14k60 {
+    color: plum;
+  }
+  .ro14k60:after {
+    content: \\"Above 700px\\";
+  }
+}
+"
+`;
